@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+.fon{
+	background-image: url("../img/image.jpg");
+	background-size: cover;
+	width: 100%;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+h2{
+	font-family: 'robotoitalic';
+	font-size: 35px;
+	text-align: center;
+	font-style: italic;
+	padding-bottom: 20px;
+}
+p{
+	font-size: 25px;
+	
+}
+.list{
+	list-style-image: url("../img/13.png");
+	list-style-position: inside;
+}
