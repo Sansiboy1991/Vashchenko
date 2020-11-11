@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HW16</title>
+</head>
+<style>
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	.conteiner{
+		width: 1170px;
+		margin: 0 auto;
+	}
+	.text1{
+		text-shadow: 15px 15px red;
+		margin-bottom: 25px;
+	}
+	.text2{
+		text-shadow: 15px 15px 3px red;
+		margin-bottom: 25px;
+	}
+	.text3{
+		text-shadow: -15px 15px 2px red, 15px -15px 2px blue;
+		margin-bottom: 25px;
+	}
+	.text4{
+		color: #585353;
+        text-shadow: 1px 1px white, -1px -1px #333;
+		margin-bottom: 25px;
+	}
+	.text5{
+		color:#8F5A5B ;
+        text-shadow: -1px -1px white, 1px 1px black;
+		margin-bottom: 25px;
+	}
+	.text6{
+		color: aqua;
+		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+		margin-bottom: 25px;
+	}
+	.block1{
+		width: 200px;
+		height: 200px;
+		border: solid 2px black;
+		box-shadow: 10px 10px blue;
+		margin-top: 35px;
+	}
+	.block2{
+		width: 200px;
+		height: 200px;
+		border: solid 2px black;
+		box-shadow: 10px 10px 25px blue;
+		margin-top: 35px;
+	}
+	.block3{
+		width: 200px;
+		height: 200px;
+		border: solid 2px black;
+		box-shadow: inset -10px 10px 30px black, inset 10px -10px 30px blue;
+		margin-top: 35px;
+	}
+	.block4{
+		width: 200px;
+		height: 200px;
+		border: solid 2px black;
+		background-image:  linear-gradient(65deg, #ff1e06 13%, #06ff48 33%, #ffef06 66%, #ff06d0 100%);
+		margin-top: 35px;
+	}
+	.block5{
+		width: 200px;
+		height: 200px;
+		border: solid 2px black;
+		background-image:  linear-gradient(red 33%, white 33%, white 66%, red 66%);
+		margin-top: 35px;
+	}
+	.block6{
+		width: 200px;
+		height: 200px;
+		border: solid 2px black;
+		background: radial-gradient( circle, white 1%, blue 99%);
+		margin-top: 35px;
+	}
+	.block7{
+		width: 200px;
+		height: 200px;
+		border: solid 2px black;
+		background: radial-gradient( closest-side at 11% 11%, white 1%, blue 99%);
+		margin-top: 35px;
+	}
+	.block8{
+		width: 200px;
+		height: 200px;
+		border: solid 2px black;
+		background: radial-gradient(circle, black 2%, white 17%, green 20%);
+		margin-top: 35px;
+	}
+</style>
+<body>
+	<div class="conteiner">
+		<h2 class="text1">Текст с тенью</h2>
+		<h2 class="text2">Текст с тенью и размытием</h2>
+		<h2 class="text3">Текст с двумя тенями</h2>
+		<h2 class="text4">Вдавленый текст</h2>
+		<h2 class="text5">Объемный текст</h2>
+		<h2 class="text6">Контур</h2>
+		<div class="block1">Блок с тенью</div>
+		<div class="block2">Блок с тенью и размытие</div>
+		<div class="block3">Две внутрение тени</div>
+		<div class="block4"></div>
+		<div class="block5"></div>
+		<div class="block6"></div>
+		<div class="block7"></div>
+		<div class="block8"></div>
+	</div>
+</body>
+</html>
