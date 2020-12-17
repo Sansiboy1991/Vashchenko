@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HW24(3)</title>
+	<style>
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		
+		.form{
+			margin: 0 auto;
+			width: 250px;
+			padding: 32px;
+			border-radius: 10px;
+			box-shadow: 0 10px 25px #000;
+			border: solid 1px #010101;
+			}
+		input{
+			 width: 100%;
+             padding: 0 0 10px 0;
+             border: none; 
+             border-bottom: 1px solid #e0e0e0;
+		}
+	</style>
+</head>
+
+<body>
+	<form class="form">
+		<input type="text" name="name" id="input_name" placeholder="Name"></br>
+		<input type="tel" name="telephone" placeholder="+380 ***-***-**-**">
+    </form>
+	<script>
+		document.getElementById("input_name").placeholder = "Sasha";
+    </script>
+</body>
+</html>
