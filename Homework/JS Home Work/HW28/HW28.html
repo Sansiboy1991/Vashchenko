@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HW28</title>
+</head>
+	<style>
+		.error-input{
+			display: inline;
+			color: red;
+			padding: 10px;
+		}
+		label{
+			display: none;
+		}	
+		
+	</style>
+
+<body>
+    <div>
+	    <input value="Sasha" id="fist-name" /><label id="label-first-name">Ваше Имя</label>
+	</div>
+	<div>
+	     <input value="Vashchenko" id="lastname" /><label id="label-lastname">Ваша Фамилия</label>
+    </div>
+	<div>
+		<input value="Kiev" id="city" /><label id="label-city">Ваш город</label>
+	</div>
+	<div>
+		<button id="click-btn">Click Me</button>
+	</div>
+	<script>
+		function addErrorClass (elementId){
+	  let element = document.getElementById(elementId);
+	  element.className = 'error-input';
+	 }
+	 
+	function addErrorInputs(){
+		addErrorClass('label-first-name');
+		addErrorClass('label-lastname');
+		addErrorClass('label-city');
+		}
+		
+	let sendBtn = document.getElementById('click-btn');
+	sendBtn.addEventListener('click', addErrorInputs);
+	</script>
+</body>
+</html>
